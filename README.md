@@ -2,6 +2,8 @@
 
 A comprehensive Android application for tracking your vacation itinerary, routes, and places visited during trips.
 
+<img width="512" height="1138" alt="image" src="https://github.com/user-attachments/assets/2422bbc0-eff4-4986-a6ec-82d98b13fec5" />
+
 ## Features
 
 ### ✈️ Core Functionality
