@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Fun Vacation Tracker Theme -->
+    <style name="Theme.VacationTracker" parent="Theme.Material3.Light">
+        <!-- Primary brand color - Ocean/Sky Cyan -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_light</item>
+        
+        <!-- Secondary brand color - Sunset Orange -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+        <item name="colorSecondaryContainer">@color/secondary_light</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/text_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        
+        <!-- Background -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        
+        <!-- Force light theme elements -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Fun button styles -->
+        <item name="materialButtonStyle">@style/FunButton</item>
+        <item name="materialCardViewStyle">@style/FunCard</item>
+    </style>
+    
+    <style name="Theme.VacationTracker.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="Theme.VacationTracker.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    
+    <!-- Fun Button Style -->
+    <style name="FunButton" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="rippleColor">@color/primary_light</item>
+    </style>
+    
+    <!-- Fun Outlined Button Style -->
+    <style name="FunButton.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="rippleColor">@color/primary_light</item>
+    </style>
+    
+    <!-- Fun Secondary Button Style -->
+    <style name="FunButton.Secondary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="rippleColor">@color/secondary_light</item>
+    </style>
+    
+    <!-- Fun Green Button Style -->
+    <style name="FunButton.Green" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="backgroundTint">@color/success</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">4dp</item>
+        <item name="rippleColor">@color/forest_green</item>
+    </style>
+    
+    <!-- Fun Card Style -->
+    <style name="FunCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="rippleColor">@color/primary_light</item>
+        <item name="cardBackgroundColor">@color/surface</item>
+    </style>
+    
+    <!-- Fun Floating Action Button -->
+    <style name="FunFAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">8dp</item>
+        <item name="rippleColor">@color/secondary_light</item>
+    </style>
+    
+    <!-- App Bar Themes -->
+    <style name="Theme.VacationTracker.AppBarOverlay" parent="ThemeOverlay.Material3.Dark">
+        <item name="colorSurface">@color/primary</item>
+        <item name="colorOnSurface">@color/text_on_primary</item>
+    </style>
+    
+    <style name="Theme.VacationTracker.PopupOverlay" parent="ThemeOverlay.Material3.Light" />
+    
+    <!-- Text Styles -->
+    <style name="FunTitle" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="FunSubtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+    
+    <style name="FunBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>

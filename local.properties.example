@@ -1,0 +1,23 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the SDK. This is only used by Gradle.
+# For customization when using a Version Control System, please read the
+# header note.
+
+# Android SDK Location
+# Replace with your actual Android SDK path
+sdk.dir=/path/to/your/Android/sdk
+
+# Google Maps API Key
+# Get your API key from Google Cloud Console:
+# 1. Go to https://console.cloud.google.com/
+# 2. Enable Maps SDK for Android
+# 3. Create credentials (API Key)
+# 4. Replace YOUR_API_KEY_HERE with your actual key
+MAPS_API_KEY=YOUR_API_KEY_HERE
+
+# Instructions:
+# 1. Copy this file to 'local.properties'
+# 2. Replace the placeholder values with your actual configuration
+# 3. Never commit 'local.properties' to version control

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vacation Tracker</string>
+    
+    <!-- Main Activity -->
+    <string name="start_trip">Start Trip</string>
+    <string name="end_trip">End Trip</string>
+    <string name="add_place">Add Place</string>
+    <string name="view_itinerary">Itinerary</string>
+    <string name="my_location">My Location</string>
+    <string name="no_active_trip">No active trip</string>
+    
+    <!-- Trip Management -->
+    <string name="trip_name_hint">Trip name</string>
+    <string name="trip_description_hint">Description (optional)</string>
+    <string name="start_new_trip">Start New Trip</string>
+    <string name="end_current_trip">End Trip</string>
+    <string name="end_trip_confirmation">Are you sure you want to end this trip?</string>
+    
+    <!-- Place Management -->
+    <string name="place_name_hint">Place name</string>
+    <string name="place_notes_hint">Notes (optional)</string>
+    <string name="add_place_title">Add Place</string>
+    
+    <!-- Statistics -->
+    <string name="distance_format">Distance: %.1f km</string>
+    <string name="duration_format" formatted="false">Duration: %dh %dm</string>
+    <string name="places_format">Places: %d</string>
+    
+    <!-- Permissions -->
+    <string name="location_permission_required">Location permission is required for tracking</string>
+    <string name="camera_permission_required">Camera permission is required for photos</string>
+    <string name="storage_permission_required">Storage permission is required for saving photos</string>
+    
+    <!-- Notifications -->
+    <string name="location_tracking_title">Vacation Tracker</string>
+    <string name="location_tracking_text">Recording your vacation route...</string>
+    <string name="stop_tracking">Stop</string>
+    
+    <!-- Error Messages -->
+    <string name="error_starting_trip">Error starting trip</string>
+    <string name="error_ending_trip">Error ending trip</string>
+    <string name="error_adding_place">Error adding place</string>
+    <string name="error_location_unavailable">Location unavailable</string>
+    
+    <!-- Common Actions -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+</resources>
